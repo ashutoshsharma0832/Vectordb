@@ -8,7 +8,7 @@ import chromadb
 from chromadb.config import Settings
 
 #CONFIG
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "...")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Persistent ChromaDB client
@@ -177,3 +177,4 @@ with gr.Blocks(title="Vector DB Chatbot") as demo:
     )
 
 demo.launch(share=True)
+
