@@ -1,0 +1,11 @@
+chromadb
+sentence-transformers
+
+groq
+langchain
+pypdf
+python-docx
+pandas
+gradio
+
+# env - Vectordb
